@@ -667,7 +667,7 @@ function change_status(client) {
 
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/discord-js-lavalink-Music-Bot-erela-js
+ * Bot Coded by Tomato#6966 & Dayyan#8345| https://github.com/Tomato6966/discord-js-lavalink-Music-Bot-erela-js
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO

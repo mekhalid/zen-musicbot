@@ -89,7 +89,7 @@ module.exports = async (client, message) => {
             .setDescription(`The prefix for this Guild is: \`${prefix}\`\n\nYou can also **ping** me, instead of using a Prefix!\n\nTo see all Commands Type \`${prefix}help [Cat/Cmd]\`\n\nTo see all available setups type \`${prefix}setup\``)
           ).then(async msg => {
             try {
-              msg?.delete({ timeout: 5000 }).catch(e => console.log(e));
+              msg.delete({ timeout: 5000 }).catch(e => console.log(e));
             } catch { }
           });
         }

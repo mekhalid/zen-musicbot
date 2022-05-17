@@ -1,15 +1,15 @@
 {
-  "token" : "YOUR_BOT_TOKEN",
-   "prefix": "YOUR_BOT_PREFIX",
+   "prefix": "=",
    "ownerIDS": [
-      "OWNER_IDS"
+      "638751724747882536"
    ],
    "clientsettings": {
       "nodes": [
          {
-            "host": "lava.link",
-            "port": 80,
-            "password": "techboy"
+            "host": "node1.UltimateDev.repl.co",
+            "port": 443,
+            "password": "lava",
+            "secure": true
          }
       ]
    },

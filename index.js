@@ -34,7 +34,7 @@ const client = new Discord.Client({
     afk: false,
     status : "dnd",
     activity: {
-      name: `${config.prefix}help || Tech Boy Gaming`,
+      name: `${config.prefix}help || Ozen`,
       type: 'LISTENING',
     },
   }
@@ -68,6 +68,6 @@ function requirehandlers() {
 
 
 
-client.login(require('./botconfig/config.json').token);
+client.login(process.env.token);
 
 module.exports.requirehandlers = requirehandlers;
